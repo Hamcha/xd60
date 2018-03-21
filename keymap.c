@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		{ KC_CAPS, _______, KC_UP  , _______, _______, _______, _______, _______, _______, _______, KC_PSCR, KC_SLCK, KC_PAUS, KC_INS  },
 		{ _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, KC_HOME, KC_PGUP, _______, _______ },
 		{ ORIGAMI, xxxxxxx, _______, _______, _______, _______, _______, _______, _______, _______, KC_END , KC_PGDN, _______, _______ },
-		{ _______, CPSCRN , _______, xxxxxxx, xxxxxxx, TGARR  , xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, _______, KC_RALT, KC_RGUI, KC_RCTL }
+		{ _______, CPSCRN , RGB_MOD, xxxxxxx, xxxxxxx, TGARR  , xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, _______, KC_RALT, KC_RGUI, KC_RCTL }
 	},
 	/* 2: non-arrow overlay */
 	[LARR] = {
